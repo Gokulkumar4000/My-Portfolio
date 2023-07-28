@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaGithub,FaLinkedin} from 'react-icons/fa';
+import {FaGithub,FaLinkedin ,FaInstagram} from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 const SocialLinks = () => {
@@ -37,7 +37,15 @@ const SocialLinks = () => {
         href:'#',
         style:'rounded-br-md',
         download:true
-    }
+    },
+    {
+        id:5,
+        child:(
+            <>Instagram<FaInstagram size={30}/></>
+        ),
+        href:'https://instagram.com/g_o_k_.u_l',
+        // style:'rounded-tr-md'  
+    },
   ];
 
 
