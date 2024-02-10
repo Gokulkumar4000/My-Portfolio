@@ -7,7 +7,7 @@ const About = () => {
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-400'>About</p>
             </div>
-            <p className='text-xl mt-20'>Gokulkumar.K is a highly skilled and experienced full-stack developer with a passion for crafting innovative and user-friendly web applications. With a deep understanding of both front-end and back-end technologies, Gokulkumar excels in creating seamless and responsive user interfaces that delight users and enhance their overall experience.</p>
+            <p className='text-xl mt-20'>Gokulkumar.K from India,தமிழ்நாடு and I am a highly skilled and experienced full-stack developer with a passion for crafting innovative and user-friendly web applications. With a deep understanding of both front-end and back-end technologies, Gokulkumar excels in creating seamless and responsive user interfaces that delight users and enhance their overall experience.</p>
             <br/>
             {/* <p className='text-xl'>With a strong foundation in programming languages such as JavaScript, Python, and Java, Gokulkumar possesses the ability to develop robust and scalable back-end systems. His expertise extends to using frameworks like React, Angular, and Vue.js to build dynamic and interactive front-end interfaces that captivate users.</p>
             <br/> */}
