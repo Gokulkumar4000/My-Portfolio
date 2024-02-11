@@ -10,8 +10,8 @@ const Home = () => {
                 <h2 className='text-3xl sm:text-7xl font-bold text-white'>
                     I'm a Full-Stack Developer
                 </h2>
-                <p className='text-gray-500 py-4 max-w-md  '>
-                    <b>Hey</b>, I'm <b> K.Gokul kumar </b>from தமிழ்நாடு  in India.I'm a good skilled <b>FullStack Developer</b>.I have done many projects including this portfolio website.I have <b>6 years</b> of experience and I completed many course in <b>Sololearn & Greatlearning</b>.I like you to know about me.
+                <p className='text-white py-4 max-w-md  '>
+                    <b>Hey</b>, I'm <b> K.Gokul kumar from தமிழ்நாடு  in India</b>.I'm a good skilled <b>FullStack Developer</b>.I have done many projects including this portfolio website.I have <b>6 years</b> of experience and I completed many course in <b>Sololearn & Greatlearning</b>.I like you to know about me.
                 </p>
                 <div>
                     <Link to='projects' smooth duration={500} className='bg-gradient-to-l from-cyan-500 to-blue-500 group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md hover:bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer
