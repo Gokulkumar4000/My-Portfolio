@@ -11,13 +11,13 @@ const Projects = () => {
   const projects =[
     {
         id:1,
-        src:Chat App,
+        src:installNode,
         button1:'Code',
         button2:'Demo'
     },
     {
         id:2,
-        src:Car Automation,
+        src:navbar,
         button1:'Code',
         button2:'Demo'
     },
