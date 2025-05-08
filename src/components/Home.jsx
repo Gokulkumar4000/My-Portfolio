@@ -1,14 +1,10 @@
 import React from 'react';
 import {Link} from 'react-scroll';
 import Hero from '../asserts/hero.jpg';
-import Mark from '../asserts/mark.jpg';
-import Jeff from '../asserts/jeff.jpg';
-import Elon from '../asserts/elon.jpg';
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md';
 import 'react-slideshow-image/dist/styles.css';
 import { Slide } from 'react-slideshow-image';
 const Home = () => {
-    const slideImages = [Hero, Mark, Jeff,Elon];
     return (
         <div name='home' className='h-full w-full bg-gradient-to-b from-black via-black to-gray-800 py-20'>
             <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full w-full px-4 md:flex-row '>
@@ -29,18 +25,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className='w-full md:w-1/3 mt-60 md:mt-0'>
-                    <Slide
-                        easing='ease'
-                        autoplay={true}
-                        autoplayInterval={10} 
-                    >
-                        {slideImages.map((image, index) => (
-                            <div key={index} className='each-slide'>
-                                <img src={image} alt={`slide-${index}`} className='rounded-2xl w-full h-96 max-w-md object-cover' />
-                            </div>
-                        ))}
-                    </Slide>
-                    {/* <img src={Hero} alt="img" className='rounded-2xl mx-auto w-100 h-96 md:w-full' /> */}
+                    <img src={Hero} alt="img" className='rounded-2xl mx-auto w-100 h-96 md:w-full' />
                 </div>
             </div>
         </div>
