@@ -3,7 +3,6 @@ import {Link} from 'react-scroll';
 import Hero from '../asserts/hero.jpg';
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md';
 import 'react-slideshow-image/dist/styles.css';
-import { Slide } from 'react-slideshow-image';
 const Home = () => {
     return (
         <div name='home' className='h-full w-full bg-gradient-to-b from-black via-black to-gray-800 py-20'>
