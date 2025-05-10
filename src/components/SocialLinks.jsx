@@ -34,7 +34,7 @@ const SocialLinks = () => {
         child:(
             <>Resume<BsFillPersonLinesFill size={30}/></>
         ),
-        href: process.env.PUBLIC_URL + '/asserts/GokulKumar.pdf',
+        href:'https://drive.google.com/file/d/110t5f-IG75bLnrLCV3QCgcsTEyid7IOh/view?usp=drive_link',
         style:'rounded-br-md',
         download: true
     },
