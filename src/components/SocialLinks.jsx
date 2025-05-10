@@ -32,7 +32,7 @@ const SocialLinks = () => {
         <>Resume<BsFillPersonLinesFill size={30} /></>
       ),
       href: 'https://drive.google.com/file/d/110t5f-IG75bLnrLCV3QCgcsTEyid7IOh/view?usp=drive_link',
-      style: 'rounded-br-md',
+      // style: 'rounded-br-md',
       download: 'GokulKumar_Resume'
     },
     {
