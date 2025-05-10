@@ -34,7 +34,7 @@ const SocialLinks = () => {
         child:(
             <>Resume<BsFillPersonLinesFill size={30}/></>
         ),
-        href:'#',
+        href:'./asserts/GokulKumar.pdf',
         style:'rounded-br-md',
         download:true
     },
